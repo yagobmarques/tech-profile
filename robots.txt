@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yagobmarques.github.io/curriculo-dev/sitemap.xml

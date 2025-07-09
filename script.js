@@ -1,213 +1,17 @@
-// Configuration data
-const CONFIG_DATA = {
-  "personalInfo": {
-    "name": "Yago Marques",
-    "profession": "Desenvolvedor Full Stack",
-    "summary": "Desenvolvedor full stack com 5+ anos de experiência em web, mobile e DevOps. Especialista em Java, PHP, React e cloud. Forte atuação com liderança técnica, integração de equipes e contato direto com clientes.",
-    "photo": "./images/foto-perfil.png"
-  },
-  "socialLinks": [
-    {
-      "name": "LinkedIn",
-      "url": "https://linkedin.com/in/yago-marques-44955b163",
-      "icon": "fab fa-linkedin"
-    },
-    {
-      "name": "GitHub",
-      "url": "https://github.com/yagobmarques",
-      "icon": "fab fa-github"
-    },
-    // {
-    //   "name": "Twitter",
-    //   "url": "https://twitter.com/joaosilva",
-    //   "icon": "fab fa-twitter"
-    // },
-    {
-      "name": "Email",
-      "url": "mailto:yagobsmarques@gmail.com",
-      "icon": "fas fa-envelope"
-    }
-  ],
-  "about": {
-    "description": "Sou um desenvolvedor full stack com paixão por criar soluções inovadoras, eficientes e escaláveis. Tenho sólida experiência tanto no desenvolvimento frontend quanto backend (mas prefiro backend rsrs), sempre buscando aplicar as melhores práticas e explorar as tecnologias mais recentes. Além da atuação técnica, também trabalho com práticas de DevOps, contribuindo para a automação de processos, integração contínua e entrega contínua (CI/CD). Sou entusiasta e especialista em Inteligência Artificial, aplicando conceitos e ferramentas de IA para potencializar soluções tecnológicas e agregar valor aos projetos. Tenho experiência em liderar equipes de desenvolvimento, promovendo um ambiente colaborativo, com foco em integração, troca de conhecimento e alcance de objetivos comuns. Minhas habilidades interpessoais me permitem atuar como um elo entre áreas técnicas e de negócio, facilitando a comunicação e a tomada de decisões. Já atuei diretamente com clientes, participando da coleta de requisitos, negociação de prazos e definição de escopo, sempre com foco em entregar valor real ao usuário final.",
-    "personalDetails": {
-      "Idade": "24 anos",
-      "Localização": "Natal, RN",
-      "Disponibilidade": "A Avaliar",
-      "Regime": "CLT / PJ"
-    }
-  },
-  "education": [
-    {
-      "degree": "Bacharelado em Ciência da Computação",
-      "institution": "Universidade de São Paulo (USP)",
-      "period": "2016 - 2020",
-      "description": "Formação sólida em algoritmos, estruturas de dados, engenharia de software e desenvolvimento de sistemas."
-    },
-    {
-      "degree": "Curso de Especialização em Cloud Computing",
-      "institution": "AWS Training Center",
-      "period": "2021",
-      "description": "Especialização em arquiteturas cloud, DevOps e serviços AWS."
-    }
-  ],
-  "experience": [
-    {
-      "position": "Desenvolvedor Full Stack Sênior",
-      "company": "TechCorp Solutions",
-      "period": "2022 - Presente",
-      "description": "Desenvolvimento de aplicações web complexas utilizando React, Node.js e AWS.",
-      "achievements": [
-        "Liderou equipe de 4 desenvolvedores",
-        "Implementou arquitetura microserviços que reduziu custos em 30%",
-        "Desenvolveu sistema de e-commerce com 99.9% de uptime"
-      ]
-    },
-    {
-      "position": "Desenvolvedor Full Stack",
-      "company": "StartupXYZ",
-      "period": "2020 - 2022",
-      "description": "Desenvolvimento de MVP e escalabilidade de aplicações web.",
-      "achievements": [
-        "Desenvolveu aplicação que atingiu 10k usuários ativos",
-        "Implementou testes automatizados aumentando cobertura para 85%",
-        "Otimizou performance da aplicação em 40%"
-      ]
-    },
-    {
-      "position": "Desenvolvedor Junior",
-      "company": "WebDev Agency",
-      "period": "2019 - 2020",
-      "description": "Desenvolvimento de sites e sistemas web para diversos clientes.",
-      "achievements": [
-        "Entregou 15+ projetos web no prazo",
-        "Implementou designs responsivos para múltiplos dispositivos"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "name": "Delivery APP",
-      "description": "Plataforma completa de e-commerce com painel administrativo, sistema de pagamentos e gestão de estoque.",
-      "technologies": ["Flutter", "Dart", "Firebase"],
-      "github": "https://github.com/yagobmarques/delivery-app",
-    },
-    {
-      "name": "Smart Stock",
-      "description": "Aplicativo de gerenciamento de tarefas com colaboração em tempo real e notificações push.",
-      "technologies": ["Java", "Express", "Socket.io", "PostgreSQL"],
-      "github": "https://github.com/joaosilva/task-manager",
-      "demo": "https://taskmanager-demo.com"
-    },
-    {
-      "name": "Website Psicóloga",
-      "description": "Dashboard meteorológico com previsões detalhadas, mapas interativos e alertas personalizados.",
-      "technologies": ["PHP", "Laravel", "MySQL"],
-      "github": "https://github.com/yagobmarques/website-psicologa-livian"
-    },
-    {
-      "name": "Whiteboard Organizer",
-      "description": "Sistema de gerenciamento de conteúdo para blogs com editor rich text e SEO otimizado.",
-      "technologies": ["Flutter", "Dart", "Firebase"],
-      "github": "https://github.com/yagobmarques/whiteboard-organizer",
-    },
-      {
-      "name": "Currículo Profissional Tecnológico",
-      "description": "Sistema de gerenciamento de conteúdo para blogs com editor rich text e SEO otimizado.",
-      "technologies": ["Bootstrap", "JQuery"],
-      "github": "https://github.com/yagobmarques/home",
-    }
-  ],
-  "skills": [
-    {
-      "category": "Frontend",
-      "items": [
-        {"name": "JavaScript/TypeScript", "level": 80},
-        {"name": "React/Next.js", "level": 80},
-        {"name": "Flutter", "level": 75},
-        {"name": "Bootstrap/TailwindCSS", "level": 80}
-      ]
-    },
-    {
-      "category": "Database & Cloud",
-      "items": [
-        {"name": "PostgreSQL/MySQL/Oracle", "level": 80},
-        {"name": "AWS Services", "level": 75},
-        {"name": "Docker", "level": 70},
-        {"name": "NoSQL", "level": 60},
-      ]
-    },
-    {
-      "category": "Backend",
-      "items": [
-        {"name": "Java/Spring", "level": 90},
-        {"name": "RESTful APIs", "level": 90},
-        {"name": "PHP/Laravel", "level": 90},
-        {"name": "GraphQL", "level": 80},
-        {"name": "Node.js/Express", "level": 70},
-        {"name": "Python/Django", "level": 70},
-      ]
-    },
-    {
-      "category": "Ferramentas & Outros",
-      "items": [
-        {"name": "Git", "level": 95},
-        {"name": "IA (diversas)", "level": 90},
-        {"name": "Admin. de Servidores Linux", "level": 85},
-        {"name": "Selenium/Playwright", "level": 80},
-        {"name": "CI/CD", "level": 70},
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Português",
-      "level": 5,
-      "proficiency": "Nativo"
-    },
-    {
-      "language": "Inglês",
-      "level": 3,
-      "proficiency": "Intermediário"
-    },
-    {
-      "language": "Espanhol",
-      "level": 2,
-      "proficiency": "Básico"
-    }
-  ],
-  "softSkills": [
-    {"name": "Trabalho em Equipe", "level": 90},
-    {"name": "Comunicação", "level": 85},
-    {"name": "Resolução de Problemas", "level": 95},
-    {"name": "Liderança", "level": 80},
-    {"name": "Adaptabilidade", "level": 85},
-    {"name": "Gestão de Tempo", "level": 75}
-  ],
-  "contact": {
-    "email": "yagobsmarques@gmail.com",
-    "phone": "+55 (84) 99493-0330",
-    "location": "Natal, RN - Brasil",
-    "website": "https://yagobmarques.github.io/home/"
-  },
-  "theme": {
-    "colors": {
-      "primary-color": "#1a1a1a",
-      "secondary-color": "#4a4a4a",
-      "accent-color": "#6b6b6b"
-    }
-  }
-};
+// Import configuration from separate file
 $(document).ready(function() {
     // Load configuration and populate page
     populatePage(CONFIG_DATA);
+    updateSEOTags();
     applyCustomColors(CONFIG_DATA.theme);
     initializeAnimations();
     createTechElements();
     initThemeToggle();
     initNavbarScroll();
+    initNavbarMobile();
     adjustSectionHeights();
-    populateHobbies(); // Adicionando chamada para popular hobbies
+    populateHobbies();
+    populateGallery(); // Adicionando chamada para popular galeria
 
     // Set current year in footer
     $('#current-year').text(new Date().getFullYear());
@@ -226,7 +30,7 @@ function createTechElements() {
     const container = document.getElementById('tech-background');
     
     // Create 25 random tech elements
-    for (let i = 0; i < 25; i++) {
+    for (let i = 0; i < 75; i++) {
         const element = document.createElement('span');
         element.className = 'tech-element';
         element.textContent = techTerms[Math.floor(Math.random() * techTerms.length)];
@@ -253,7 +57,7 @@ function createTechElements() {
     }
     
     // Add tech elements to specific sections
-    const sections = document.querySelectorAll('#skills, #projects, #softskills, #hobbies');
+    const sections = document.querySelectorAll('#skills, #projects, #softskills, #hobbies, #gallery');
     sections.forEach(section => {
         const binaryCode = document.createElement('div');
         binaryCode.className = 'binary-decoration';
@@ -275,7 +79,11 @@ function populatePage(data) {
     populateSocialLinks(data.socialLinks);
 
     // About Section
-    $('#about-description').text(data.about.description);
+    const aboutText = data.about.description
+        .split('\n\n')
+        .map(paragraph => `<p>${paragraph}</p>`)
+        .join('');
+    $('#about-description').html(aboutText);
     populatePersonalInfo(data.about.personalDetails);
 
     // Education
@@ -313,9 +121,17 @@ function populateSocialLinks(socialLinks) {
 
 function populatePersonalInfo(details) {
     const container = $('#personal-info');
+    const icons = {
+        'Idade': 'fas fa-birthday-cake',
+        'Localização': 'fas fa-map-marker-alt',
+        'Disponibilidade': 'fas fa-calendar-check',
+        'Regime': 'fas fa-briefcase'
+    };
+    
     Object.entries(details).forEach(([key, value]) => {
+        const icon = icons[key] || 'fas fa-info-circle';
         container.append(`
-            <p><strong>${key}:</strong> ${value}</p>
+            <p><i class="${icon}"></i> <strong>${key}:</strong>  ${value}</p>
         `);
     });
 }
@@ -574,10 +390,17 @@ function initializeAnimations() {
     $('a[href^="#"]').on('click', function(e) {
         e.preventDefault();
         const target = $(this.getAttribute('href'));
+        
+        // Collapse navbar on mobile when clicking a link
+        const navbarCollapse = $('.navbar-collapse');
+        if (navbarCollapse.hasClass('show')) {
+            $('.navbar-toggler').click();
+        }
+        
         if (target.length) {
             $('html, body').animate({
-                scrollTop: target.offset().top - 80
-            }, 1000, 'easeInOutCubic');
+                scrollTop: target.offset().top - 20
+            }, 200, 'easeInOutCubic');
         }
     });
 
@@ -738,42 +561,9 @@ function adjustSectionHeights() {
 }
 
 function populateHobbies() {
-    const hobbies = [
-        {
-            name: "Música",
-            description: "Aprecio diversos gêneros musicais e toco instrumentos nas horas vagas.",
-            icon: "fas fa-music"
-        },
-        {
-            name: "Jogos",
-            description: "Entusiasta de jogos virtuais e de tabuleiro, especialmente estratégicos.",
-            icon: "fas fa-gamepad"
-        },
-        {
-            name: "Crossfit",
-            description: "Praticante regular de crossfit para manter condicionamento físico.",
-            icon: "fas fa-dumbbell"
-        },
-        {
-            name: "Corrida",
-            description: "Participo de corridas de rua e treinos regulares para manter a saúde.",
-            icon: "fas fa-running"
-        },
-        {
-            name: "Surf",
-            description: "Aproveito o litoral para praticar surf sempre que possível.",
-            icon: "fas fa-water"
-        },
-        {
-            name: "Filmes e Séries",
-            description: "Apreciador de boas histórias em diferentes formatos audiovisuais.",
-            icon: "fas fa-film"
-        }
-    ];
-
     const container = $('#hobbies-list');
     
-    hobbies.forEach(hobby => {
+    CONFIG_DATA.hobbies.forEach(hobby => {
         container.append(`
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="hobby-item">
@@ -788,4 +578,89 @@ function populateHobbies() {
             </div>
         `);
     });
+}
+function populateGallery() {
+    const container = $('#gallery-container');
+    
+    CONFIG_DATA.gallery.forEach((item, index) => {
+        container.append(`
+            <div class="col-md-6 col-lg-4 gallery-item-wrapper" data-category="${item.category}">
+                <div class="gallery-item" data-index="${index}" onclick="openModal(${index})">
+                    <img src="${item.image}" alt="${item.title}" onerror="this.src='https://placehold.co/600x400'">
+                    <div class="gallery-overlay">
+                        <h5>${item.title}</h5>
+                        <p class="mb-0">${item.description}</p>
+                    </div>
+                </div>
+            </div>
+        `);
+    });
+
+    // Filtro da galeria
+    $('.gallery-filter button').click(function() {
+        const filter = $(this).data('filter');
+        
+        $('.gallery-filter button').removeClass('active');
+        $(this).addClass('active');
+        
+        if (filter === 'all') {
+            $('.gallery-item-wrapper').show();
+        } else {
+            $('.gallery-item-wrapper').hide();
+            $(`.gallery-item-wrapper[data-category="${filter}"]`).show();
+        }
+    });
+}
+
+function initNavbarMobile() {
+    // Highlight active section in navbar
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    
+    // Update active link on scroll
+    window.addEventListener('scroll', () => {
+        let current = '';
+        
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            if (pageYOffset >= (sectionTop - 150)) {
+                current = section.getAttribute('id');
+            }
+        });
+        
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${current}`) {
+                link.classList.add('active');
+            }
+        });
+    });
+}
+// SEO Dynamic Updates
+function updateSEOTags() {
+    const data = CONFIG_DATA.personalInfo;
+    
+    // Update title
+    document.title = `${data.name} - ${data.profession} | Currículo Profissional`;
+    
+    // Update meta description
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+        metaDesc.content = `${data.summary} Localizado em ${CONFIG_DATA.about.personalDetails.Localização}.`;
+    }
+    
+    // Update Open Graph tags
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.content = `${data.name} - ${data.profession}`;
+    
+    const ogDesc = document.querySelector('meta[property="og:description"]');
+    if (ogDesc) ogDesc.content = data.summary;
+    
+    // Update Twitter tags
+    const twitterTitle = document.querySelector('meta[property="twitter:title"]');
+    if (twitterTitle) twitterTitle.content = `${data.name} - ${data.profession}`;
+    
+    const twitterDesc = document.querySelector('meta[property="twitter:description"]');
+    if (twitterDesc) twitterDesc.content = data.summary;
 }
