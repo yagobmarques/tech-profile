@@ -4,7 +4,7 @@ const CONFIG_DATA = {
     name: "Yago Marques",
     profession: "Desenvolvedor Full Stack",
     summary: "Desenvolvedor full stack com 5+ anos de experiência em web, mobile e DevOps. Especialista em Java, PHP, React e cloud. Forte atuação com liderança técnica, integração de equipes e contato direto com clientes.",
-    photo: "./images/foto-perfil.png"
+    photo: "./images/foto-perfil.jpg"
   },
 
   socialLinks: [
@@ -106,32 +106,31 @@ Sou entusiasta e especialista em Inteligência Artificial, aplicando conceitos e
   projects: [
     {
       name: "Delivery APP",
-      description: "Plataforma completa de e-commerce com painel administrativo, sistema de pagamentos e gestão de estoque.",
+      description: "Aplicação mobile com funcionalidades personalizadas para entregas recorrentes de Água e Gás",
       technologies: ["Flutter", "Dart", "Firebase"],
       github: "https://github.com/yagobmarques/delivery-app"
     },
     {
       name: "Smart Stock",
-      description: "Aplicativo de gerenciamento de tarefas com colaboração em tempo real e notificações push.",
-      technologies: ["Java", "Express", "Socket.io", "PostgreSQL"],
-      github: "https://github.com/joaosilva/task-manager",
-      demo: "https://taskmanager-demo.com"
+      description: "Sistema de gerenciamento inteligente de estoque para empresas de manufatura, relacionando encomendas e matéria-prima",
+      technologies: ["Java", "Command Line"],
+      github: "https://github.com/yagobmarques/smart-stock",
     },
     {
       name: "Website Psicóloga",
-      description: "Dashboard meteorológico com previsões detalhadas, mapas interativos e alertas personalizados.",
+      description: "Página profissional de uma Psicóloga",
       technologies: ["PHP", "Laravel", "MySQL"],
       github: "https://github.com/yagobmarques/website-psicologa-livian"
     },
     {
       name: "Whiteboard Organizer",
-      description: "Sistema de gerenciamento de conteúdo para blogs com editor rich text e SEO otimizado.",
+      description: "Aplicação mobile para organização de fotos, principalmente de quadros e slides escolares.",
       technologies: ["Flutter", "Dart", "Firebase"],
       github: "https://github.com/yagobmarques/whiteboard-organizer"
     },
     {
       name: "Currículo Profissional Tecnológico",
-      description: "Sistema de gerenciamento de conteúdo para blogs com editor rich text e SEO otimizado.",
+      description: "Um template de currículo web completo e profissional, especialmente desenvolvido para profissionais de tecnologia, com foco em apresentação elegante e funcionalidades avançadas.",
       technologies: ["Bootstrap", "JQuery"],
       github: "https://github.com/yagobmarques/home"
     }
@@ -223,9 +222,9 @@ Sou entusiasta e especialista em Inteligência Artificial, aplicando conceitos e
       icon: "fas fa-dumbbell"
     },
     {
-      name: "Corrida",
-      description: "Participo de corridas de rua e treinos regulares para manter a saúde.",
-      icon: "fas fa-running"
+      name: "Cozinha",
+      description: "Apaixonado pela culinária, vejo na cozinha uma forma de expressar cuidado e criatividade",
+      icon: "fas fa-kitchen-set"
     },
     {
       name: "Surf",
@@ -241,58 +240,70 @@ Sou entusiasta e especialista em Inteligência Artificial, aplicando conceitos e
 
   gallery: [
     {
-      image: "images/gallery/graduation.jpg",
+      image: "images/colacao_grau.jpg",
       title: "Colação de Grau",
-      description: "Formatura em Ciência da Computação na USP (2020)",
+      description: "Formatura em Tecnologia da Informação na UFRN (2023)",
       category: "academic"
     },
     {
-      image: "images/gallery/first-job.jpg",
-      title: "Primeiro Emprego",
-      description: "Meu primeiro setup como desenvolvedor na WebDev Agency (2019)",
+      image: "images/primeiro_setup_programacao.jpg",
+      title: "Primeiro Emprego de Dev",
+      description: "Meu primeiro setup como desenvolvedor na Leve Tecnologia (2021)",
       category: "professional"
     },
     {
-      image: "images/gallery/promotion.jpg",
-      title: "Promoção",
-      description: "Celebração da promoção para desenvolvedor sênior (2022)",
+      image: "images/ultimo_dia_leve.jpg",
+      title: "Ultimo dia na Leve",
+      description: "Ultimo dia de trabalho na primeira empresa que me acolheu (2023)",
+      category: "professional"
+    },
+      {
+      image: "images/primeiro_dia_dtp.jpg",
+      title: "Primeiro dia na Dataprev",
+      description: "Primeiro dia de trabalho na Dataprev (2024)",
       category: "professional"
     },
     {
-      image: "images/gallery/public-exam.jpg",
-      title: "Aprovação em Concurso",
-      description: "Comemoração da aprovação no concurso público (2021)",
-      category: "professional"
-    },
-    {
-      image: "images/gallery/tech-event.jpg",
-      title: "Evento de Tecnologia",
-      description: "Participação em conferência de desenvolvimento web (2022)",
-      category: "events"
-    },
-    {
-      image: "images/gallery/hackathon.jpg",
-      title: "Hackathon",
-      description: "Participação em hackathon de inovação tecnológica (2021)",
-      category: "events"
-    },
-    {
-      image: "images/gallery/podium.jpg",
-      title: "Pódio em Campeonato",
-      description: "3º lugar na maratona de corrida regional (2022)",
+      image: "images/atletismo_olmpiadas_dtp.jpg",
+      title: "Olimpiadas DTP",
+      description: "Competição de Atletismo com colegas de trabalho (2024)",
       category: "personal"
     },
     {
-      image: "images/gallery/surf-competition.jpg",
-      title: "Competição de Surf",
-      description: "Participação em campeonato local de surf (2023)",
+      image: "images/campeoes_olimpiadas_dtp.jpg",
+      title: "Campeões Olimpiadas DTP",
+      description: "Time campeão das Olimpiadas DTP 2024, a qual fui capitão dos Wolfs (2024)",
       category: "personal"
     },
     {
-      image: "images/gallery/team-building.jpg",
-      title: "Team Building",
-      description: "Atividade de integração com a equipe de desenvolvimento (2022)",
-      category: "professional"
+      image: "images/50_anos_dtp.jpg",
+      title: "Festa de 50 anos da Dataprev",
+      description: "Comemoração de 50 anos da Dataprev (2021)",
+      category: "events"
+    },
+    {
+      image: "images/primeira_feira.jpg",
+      title: "Primeira Feira",
+      description: "Primeira 'feira' da minha casa - comecei a morar só! (2024)",
+      category: "personal"
+    },
+    {
+      image: "images/1lugar_inter.jpg",
+      title: "Competição de Crossfit - 1º Lugar Inter",
+      description: "Participação em campeonato local de crossfit (2023)",
+      category: "personal"
+    },
+        {
+      image: "images/1lugar_rx.jpg",
+      title: "Competição de Crossfit - 1º Lugar RX",
+      description: "Participação em campeonato local de crossfit (2024)",
+      category: "personal"
+    },
+    {
+      image: "images/evento_huawei.jpg",
+      title: "Evento Huawei em Fortaleza/CE ",
+      description: "Participação em evento de IA promovido pela Huawei (2025)",
+      category: "events"
     }
   ],
 
