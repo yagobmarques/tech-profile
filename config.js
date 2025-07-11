@@ -278,7 +278,7 @@ Sou entusiasta e especialista em Inteligência Artificial, aplicando conceitos e
     {
       image: "images/50_anos_dtp.jpg",
       title: "Festa de 50 anos da Dataprev",
-      description: "Comemoração de 50 anos da Dataprev (2021)",
+      description: "Comemoração de 50 anos da Dataprev (2025)",
       category: "events"
     },
     {
@@ -293,7 +293,7 @@ Sou entusiasta e especialista em Inteligência Artificial, aplicando conceitos e
       description: "Participação em campeonato local de crossfit (2023)",
       category: "personal"
     },
-        {
+    {
       image: "images/1lugar_rx.jpg",
       title: "Competição de Crossfit - 1º Lugar RX",
       description: "Participação em campeonato local de crossfit (2024)",
